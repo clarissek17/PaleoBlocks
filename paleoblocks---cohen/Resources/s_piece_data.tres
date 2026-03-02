@@ -1,0 +1,10 @@
+[gd_resource type="Resource" format=3 uid="uid://ccvl7olf216w"]
+
+[ext_resource type="Texture2D" uid="uid://cokg53ca8ud3e" path="res://assets/Tiles/Red.png" id="1_kkuyy"]
+[ext_resource type="Script" uid="uid://bx4k2062uxmqv" path="res://scripts/piece_data.gd" id="2_04k8y"]
+
+[resource]
+script = ExtResource("2_04k8y")
+piece_texture = ExtResource("1_kkuyy")
+tetromino_type = 4
+spawn_position = Vector2(-8, -152)

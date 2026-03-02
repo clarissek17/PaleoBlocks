@@ -1,0 +1,9 @@
+[gd_resource type="Resource" format=3 uid="uid://o7kyxfv7h4a3"]
+
+[ext_resource type="Texture2D" uid="uid://du844yg2vvsr8" path="res://assets/Tiles/Blue.png" id="1_68rr4"]
+[ext_resource type="Script" uid="uid://bx4k2062uxmqv" path="res://scripts/piece_data.gd" id="2_swbjr"]
+
+[resource]
+script = ExtResource("2_swbjr")
+piece_texture = ExtResource("1_68rr4")
+spawn_position = Vector2(-8, -152)
